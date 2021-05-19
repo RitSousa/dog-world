@@ -1,0 +1,117 @@
+
+body {
+    background-image: url(./images/dog-holding-hand.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position:absolute;
+    width: 100%;
+    height: 500px;
+    margin-left: 0;
+}     
+
+nav ul {
+    position: fixed;
+    top: 35rem;
+    width: 100%;
+    list-style-type: none;
+    margin: 0rem;
+    padding: 0rem;
+    overflow: hidden;
+    background-color: rgb(154, 173, 175);
+    font-size: 25px;
+} 
+  
+nav li {
+    float: right;
+    box-align: center
+}
+  
+li a {
+    display: block;
+    color: #610606;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #7f898b;
+    transform: scale(1.0);
+    box-shadow: 0 0 10px rgba(222, 226, 228, 0.502);
+}  
+
+  /* CONTACT: */
+form {
+    max-width: 25%;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    color: rgb(105, 98, 98);
+    position: relative;
+
+}
+
+legend {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(10, 7, 7);
+    padding: 0.6rem;
+}
+
+label {
+    display: inline-block;
+    width: 18rem;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    font-weight: lighter;
+}
+
+fieldset {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+}
+
+input[type="text"], input[type="email"] {
+    padding: 8px 5px;
+    width: 85%;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+input[type="message"] {
+    padding: 30px 5px;
+    width:85%;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+button {
+    width: 85%;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    outline: none;
+    color: #efefef;
+    background-color: rgba(75, 111, 218, 0.719);
+    cursor: pointer;
+    border: none;
+    margin: 1rem;
+}
+
+button:hover {
+    background-color: rgb(38, 63, 136);
+}
+
+.address { 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        font-size: 18px;
+} 
+
+.phone { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 18px;
+} 
